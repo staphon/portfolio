@@ -1,5 +1,25 @@
 <!DOCTYPE html>
 <html lang="en" data-color-mode="auto" data-light-theme="light" data-dark-theme="dark" data-a11y-animated-images="system" data-a11y-link-underlines="true" data-turbo-loaded="" class="js-focus-visible" data-js-focus-visible="">
-<head></head>
-<body>Hello World</body>
+<head>
+<style>
+.side-menu {
+    background: #171b22;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    max-width: 250px;
+    overflow: auto;
+    position: fixed;
+    width: 100%;
+}
+</style
+</head>
+<body>Hello World
+<div id="side-menu">This is the side bar
+it has side bar things
+yay side bars!</div>
+<h1>This is outside of the sidebar!</h1>
+</body>
+
 </html>
